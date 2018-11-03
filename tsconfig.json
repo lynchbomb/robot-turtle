@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "declaration": true,
+    "isolatedModules": false,
+    "module": "es2015",
+    "target": "es2015",
+    "outDir": "es6",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "robotTurtle": ["src/index.ts"]
+    }
+  },
+  "filesGlob": [
+    "**/*.ts"
+  ]
+}
