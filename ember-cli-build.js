@@ -1,7 +1,6 @@
 const typescript = require('broccoli-typescript-compiler');
 const Rollup = require('broccoli-rollup');
 const MergeTrees = require('broccoli-merge-trees');
-const replace = require('broccoli-string-replace');
 const Funnel = require('broccoli-funnel');
 const path = require('path');
 const buble = require('rollup-plugin-buble');
